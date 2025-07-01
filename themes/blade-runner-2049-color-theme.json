@@ -2,29 +2,38 @@
   "name": "Blade Runner 2049",
   "type": "dark",
   "colors": {
-    "editor.background": "#0a0a0a",
-    "editor.foreground": "#ff9e64",
+    "editor.background": "#0c0c0c",
+    "editor.foreground": "#ffcc99",
     "editor.lineHighlightBackground": "#1a1a1a",
-    "editorCursor.foreground": "#00ffff",
-    "editorLineNumber.foreground": "#555",
+    "editorCursor.foreground": "#00fff7",
+    "editorLineNumber.foreground": "#444",
     "editor.selectionBackground": "#ffaa0033",
     "editor.inactiveSelectionBackground": "#ffaa0011",
-    "editorIndentGuide.background": "#222",
-    "editorIndentGuide.activeBackground": "#ffaa00",
-    "sideBar.background": "#0a0a0a",
+    "editorIndentGuide.background1": "#222",
+    "editorIndentGuide.activeBackground1": "#ffaa00",
+    "sideBar.background": "#0c0c0c",
     "sideBar.foreground": "#cccccc",
     "statusBar.background": "#000000",
     "statusBar.foreground": "#ffaa00",
-    "terminal.background": "#0a0a0a",
-    "terminal.foreground": "#ff9e64",
+    "terminal.background": "#0c0c0c",
+    "terminal.foreground": "#ffcc99",
     "activityBar.background": "#000000",
     "activityBar.foreground": "#ffaa00",
-    "tab.activeBackground": "#0a0a0a",
-    "tab.inactiveBackground": "#111111",
+    "tab.activeBackground": "#0c0c0c",
+    "tab.inactiveBackground": "#121212",
     "tab.activeForeground": "#ffaa00",
-    "tab.inactiveForeground": "#666666"
+    "tab.inactiveForeground": "#666666",
+    "titleBar.activeBackground": "#0c0c0c",
+    "titleBar.activeForeground": "#ffaa00"
   },
   "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#44475a",
+        "fontStyle": "italic"
+      }
+    },
     {
       "scope": ["keyword", "storage.type"],
       "settings": {
@@ -35,26 +44,19 @@
     {
       "scope": ["string", "constant.other.symbol"],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#00ffe6"
       }
     },
     {
       "scope": ["variable", "identifier"],
       "settings": {
-        "foreground": "#ff9e64"
-      }
-    },
-    {
-      "scope": ["comment"],
-      "settings": {
-        "foreground": "#555",
-        "fontStyle": "italic"
+        "foreground": "#ffcc99"
       }
     },
     {
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#ff6e6e"
+        "foreground": "#ff3c3c"
       }
     },
     {
@@ -66,8 +68,14 @@
     {
       "scope": ["entity.name.type", "support.class"],
       "settings": {
-        "foreground": "#ffaa00",
+        "foreground": "#ffcc66",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.tag", "entity.name.tag"],
+      "settings": {
+        "foreground": "#00ffff"
       }
     }
   ]
