@@ -1,0 +1,74 @@
+{
+  "name": "Blade Runner 2049",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0a0a0a",
+    "editor.foreground": "#ff9e64",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "editorCursor.foreground": "#00ffff",
+    "editorLineNumber.foreground": "#555",
+    "editor.selectionBackground": "#ffaa0033",
+    "editor.inactiveSelectionBackground": "#ffaa0011",
+    "editorIndentGuide.background": "#222",
+    "editorIndentGuide.activeBackground": "#ffaa00",
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#cccccc",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ffaa00",
+    "terminal.background": "#0a0a0a",
+    "terminal.foreground": "#ff9e64",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#ffaa00",
+    "tab.activeBackground": "#0a0a0a",
+    "tab.inactiveBackground": "#111111",
+    "tab.activeForeground": "#ffaa00",
+    "tab.inactiveForeground": "#666666"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#ffaa00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#ff9e64"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#555",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#ff6e6e"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#ffaa00"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.class"],
+      "settings": {
+        "foreground": "#ffaa00",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "blade-runner-2049-theme",
+  "displayName": "Blade Runner 2049",
+  "publisher": "zaid2044",
+  "description": "A Blade Runner 2049-inspired theme for VS Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blade Runner 2049",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blade-runner-2049-color-theme.json"
+      }
+    ]
+  }
+}
