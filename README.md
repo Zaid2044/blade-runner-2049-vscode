@@ -43,14 +43,6 @@ A highly stylized Visual Studio Code theme inspired by the neon-soaked aesthetic
 
 ---
 
-## 🖼️ Preview
-
-<p align="center">
-  <img src="demo/preview.png" alt="Blade Runner 2049 Theme Preview" width="800"/>
-</p>
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -58,8 +50,6 @@ blade-runner-2049-vscode/
 ├── themes/
 │   └── BladeRunner-2049-color-theme.json
 ├── package.json
-├── demo/
-│   └── preview.png
 ├── README.md
 ```
 
